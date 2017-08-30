@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
       <img className="App-logo" src={logo} alt="ReactJS Logo"/>
+      <h1>NASA: Mars Rovers!</h1>
        <GetImageForm />
       </div>
     );

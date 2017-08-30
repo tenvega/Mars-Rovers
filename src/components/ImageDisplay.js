@@ -4,7 +4,7 @@ const ImageDisplay = (props) => {
 
   const images = props.images.map((image) => {
     return(
-      <img src ={image.img_src} key = {image.id} alt =""/>
+      <img className = "pics" src ={image.img_src} key = {image.id} alt =""/>
     )
   });
    return(

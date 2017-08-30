@@ -89,7 +89,7 @@ handleSol(event) {
     <option value="navcam">NAVCAM (Navigation Cam)</option>
   </select>
 
-  <label htmlFor="sol">Martian Sol: 1000-2000 </label>
+  <label htmlFor="sol"> Martian Sol: 1000-2000   </label>
   <input type="number" onChange={this.handleSol} max="2000" min="1000" value={this.state.value}/>
    </form>
 

@@ -3,7 +3,7 @@ import React from 'react';
 const GetImageButton = (props) =>{
   return(
 
-  <button onClick = {props.onClick} type= "submit">Get Image</button>
+  <button className= "button" onClick = {props.onClick} type= "submit">Get Image</button>
 
  );
 }
